@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashbord</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"rel="stylesheet">
+    <!-- this is a stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <aside>
+            <div class="top">
+                <div class="logo">
+                    <img src="img/logo.png">
+                    <h2> Goo<span class="danger">gle</span> </h2>
+                </div>
+                <div class="close" id="close-btn">
+                    <span class="material-icons-sharp">close </span>
+                </div>
+            </div>
+            <div class="sidebar">
+                <a href="#">
+                    <span class="material-icons-sharp">grid_view </span>
+                    <h3>Dashboard</h3>
+                </a>
+                <a href="#" class="active">
+                    <span class="material-icons-sharp">people </span>
+                    <h3>Customers</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">receipt_long </span>
+                    <h3>Order</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">insights </span>
+                    <h3>Analytics</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">mail_outline </span>
+                    <h3>Massages</h3>
+                    <span class="massage-count">80</span>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">inventory </span>
+                    <h3>Products</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">report_gmailerrorred </span>
+                    <h3>Reports</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">settings </span>
+                    <h3>Settings</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">add </span>
+                    <h3>Add Product</h3>
+                </a>
+                <a href="#">
+                    <span class="material-icons-sharp">logout </span>
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </aside>
+        <!-- ++++++++++++++++ MAIN +++++++++++++++++ -->
+        <main>
+            <h1>Dashboard</h1>
+            <div class="date">
+                <input type="date">
+            </div>
+            <!--++++++++++++ Start The insights ++++++++++++ -->
+            <div class="insights">
+                <div class="sales">
+                    <span class="material-icons-sharp">analytics </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Sales</h3>
+                            <h1>$50,230</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38'  cy='38' r='36'> </circle>
+                            </svg>
+                            <div class="number">
+                                <p>81%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--++++++++++ END OF SALES ++++++++++++-->
+                <div class="expenses">
+                    <span class="material-icons-sharp">bar_chart</span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Expences</h3>
+                            <h1>$25,230</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38'  cy='38' r='36'> </circle>
+                            </svg>
+                            <div class="number">
+                                <p>68%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--++++++++++ END OF Total Expences ++++++++++++-->
+                <div class="income">
+                    <span class="material-icons-sharp">stacked_line_chart </span>
+                    <div class="middle">
+                        <div class="left">
+                            <h3>Total Income</h3>
+                            <h1>$10,230</h1>
+                        </div>
+                        <div class="progress">
+                            <svg>
+                                <circle cx='38'  cy='38' r='36'> </circle>
+                            </svg>
+                            <div class="number">
+                                <p>42%</p>
+                            </div>
+                        </div>
+                    </div>
+                    <small class="text-muted">Last 24 Hours</small>
+                </div>
+                <!--++++++++++ END OF Total income ++++++++++++-->
+            </div>
+            <!--+++++++++ End Of  The insights ++++++++++++++ -->
+            <div class="recent-orders">
+                <h2>Recent Orders</h2>
+                <table>
+                    <thead><tbody></tbody>
+                        <tr>
+                            <th>Product Name</th>
+                            <th>Product Number</th>
+                            <th>Payments</th>
+                            <th>status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td> TP-link N300 WiFi Wireless Router TL-</td>
+                            <td>10,301</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td>ASUS TUF Gaming A15</td>
+                            <td>10,302</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td> DJI Mavic Mini Flymore Combo Nano Drone</td>
+                            <td>10,392</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+                        <tr>
+                            <td> Apple iPhone 13 Pro (128GB) - Sierra Blue </td>
+                            <td>10,5009</td>
+                            <td>Due</td>
+                            <td class="warning">Pending</td>
+                            <td class="primary">Details</td>
+                        </tr>
+
+                    </tbody>
+                </table>
+                <a href="#">Show All</a>
+            </div>
+            <!-- +++++++++ End Of Main +++++++++++++++ -->
+        </main>
+        <div class="right">
+            <div class="top">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="theme-toggler">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Hey , <b>Satish</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="img/profile.jpg">
+                    </div>
+                </div>
+            </div>
+            <!-- ++++++++ End Of Top +++++++++++++++ -->
+            <div class="recent-updates">
+                <h2>Recent Updates</h2>
+                <div class="updates">
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile-1.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Ledi singam : </b>DJI Mavic Mini is a good product and if you get a deal of Flymore Combo in 40k then it even becomes more good.  </p>
+                            <small class="text-muted">2 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile-2.jpeg">
+                        </div>
+                        <div class="message">
+                            <p><b>Papa ki pari : </b>The battery doesn’t last half a day. Screen size is average.  </p>
+                            <small class="text-muted">3 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile-3.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Papa ki duniya : </b>thank you for this amazing products in cheap prices </p>
+                            <small class="text-muted">4 Minutes Ago</small>
+                        </div>
+                    </div>
+                    <div class="update">
+                        <div class="profile-photo">
+                            <img src="img/profile4.jpg">
+                        </div>
+                        <div class="message">
+                            <p><b>Ledi: </b>received his order of night tech GPS drone </p>
+                            <small class="text-muted">9 Minutes Ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- +++++++++ End Of The Recents Updates ++++++++++ -->
+            <div class="sales-analytics">
+                <h2>Sales analytics </h2>
+                <div class="item online">
+                    <div class="icon">
+                        <span class="material-icons-sharp">shopping_cart</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Online Order </h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">39%</h5>
+                        <h3>3884</h3>
+                    </div>               
+                </div>
+                <div class="item offline">
+                    <div class="icon">
+                        <span class="material-icons-sharp">local_mall</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>Offline Order </h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="danger">-17%</h5>
+                        <h3>1100</h3>
+                    </div>               
+                </div>
+                <div class="item customers">
+                    <div class="icon">
+                        <span class="material-icons-sharp">person</span>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <h3>New Customers </h3>
+                            <small class="text-muted">Last 24 Hours</small>
+                        </div>
+                        <h5 class="success">+25%</h5>
+                        <h3>884</h3>
+                    </div>               
+                </div>
+                <div class="item add-product">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Add Product</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <script src="./indexjs.js"></script>
+</body>
+</html>
