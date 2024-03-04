@@ -34,9 +34,6 @@
     --box-shadow: 0 2rem 3rem var(--color-light);
 }
 
-
-
-
 *{
     margin: 0;
     padding: 0;
@@ -151,9 +148,11 @@ aside .top {
     align-items: center;
     justify-content: space-between;
     margin-top: 1.4rem;
+    padding: 0.8rem;
 }
 
 aside .logo  {
+    margin-left: 2rem;
     display: flex;
     gap: 0.8rem;
 }
