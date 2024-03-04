@@ -142,7 +142,7 @@ b{
 
 aside{
     height: 100vh;
-    background: rgb(170, 168, 168);
+    background: #fff;
 }
 aside .top {
     /* background: white; */
