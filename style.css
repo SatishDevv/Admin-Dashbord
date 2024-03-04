@@ -35,6 +35,8 @@
 }
 
 
+
+
 *{
     margin: 0;
     padding: 0;
@@ -142,10 +144,9 @@ b{
 
 aside{
     height: 100vh;
-    background: #fff;
 }
 aside .top {
-    /* background: white; */
+    background:var(--color-white);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -169,7 +170,7 @@ aside .close {
     /* +++++++++++++++++++++++++++ SIDEBAR +++++++++++++++++++++ */
 
 aside .sidebar {
-    background: white;
+    background: var(--color-white);
     display: flex;
     flex-direction: column;
     height: 86vh;
